@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality: PC Gaming Club</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="image/logotip.png" />
+</head>
+<body>
+        <header>
+            <div id="logotip"> 
+                <a href="index.html">
+                    <img src="image/logotip.png" height="48px" width="48px" >
+                </a>
+            </div>
+                <nav>
+                    <a href="pages/kontakti.html">Обратная связь</a>
+                    <a href="pages/brony.html">Забронировать место</a>
+                </nav>
+        </header>
+            <aside>
+                <a href="pages/apex.html">Apex Legends</a> 
+                <a href="pages/csgo.html">CS:GO</a>
+                <a href="pages/dota2.html">Dota 2</a>
+                <a href="pages/fortnite.html">Fortnite</a>
+                <a href="pages/pubg.html">PUBG</a>     
+            </aside>
+        <main>
+                <div class="slideshow">
+                    <div class="slide">
+                        <a href="/pages/apex.html" target="_blank"><img src="/image/apexslide.jpg" >
+                        
+    
+                    </div>
+                    <div class="slide">
+                        
+                        <a href="/pages/csgo.html" target="_blank"><img src="/image/csgoslide.jpg" >
+                        
+    
+                    </div>
+                    <div class="slide">
+                        
+                        <a href="/pages/dota2.html" target="_blank"><img src="/image/dota2slide.jpg" >
+                        
+    
+                    </div>
+                    <div class="slide">
+                        
+                        <a href="/pages/fortnite.html" target="_blank"><img src="/image/fortniteslide.jpg" >
+                        
+    
+                    </div>
+                    <div class="slide">
+                        
+                        
+                        <a href="/pages/pubg.html" target="_blank"><img src="/image/pubgslide.jpg" >
+    
+                    </div>
+    
+                </div>
+                <div class="oral">
+                    <div class="worktime">
+                       <a href="/pages/onas.html">Work Time</a>
+                    </div>
+                    
+                    <h1> 24/7</h1>
+                    <p>Без Входных<br>
+                     Праздников и Перерывов<br>
+                    Ведь мы всегда вам рады :)<br>
+
+                    Even New Year's Eve you can spend with us and your favorite games</p><br>
+
+
+                    
+                    
+                </div>
+    
+           
+        </main>
+        <footer>
+          <a href="/pages/onas.html">FATALITY</a>
+        </footer>
+            <script>
+             var slideindex = 0;
+             showSlide();
+             setInterval(showSlide, 3000)
+            
+             function showSlide()
+             {
+                var slider = document.getElementsByClassName('slide');
+                var i;
+                for (i=0; i<slider.length; i++){
+                    slider[i].style.display = "none";
+                }
+                slider[slideindex].style.display = "block";
+            
+                slideindex++;
+                if(slideindex >= slider.length){
+                    slideindex = 0;
+                }
+             }
+            </script>
+    
+</body>
+</html>

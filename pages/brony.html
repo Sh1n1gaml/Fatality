@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatality: PC Gaming Club</title>
+    <link rel="stylesheet" type="text/css" href="/css/brony.css">
+    <link rel="icon" type="image/png" href="../image/logotip.png" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+</head>
+<body>
+    <main>
+        <div class="forma-kontakt">
+         <div class="forma">
+           <h1>Забронировать место</h1>
+          <form autocomplete="off"   id="formular" method="POST" action="https://sheetdb.io/api/v1/frrbpweq2pzmb">
+            <input type="text"  name="data[name]" id="name" placeholder="Имя" required /> <br />
+            <input type="text"  name="data[familia]" id="familia" placeholder="Фамилия" required /> <br />
+            <input type="email" name="data[email]" id="email" placeholder="e-mail" required /><br>
+            <p>бронировать можно только на определенное время(почасово)</p><br>
+            <textarea placeholder="дата/день недели" name="data[coment]" id="coment" rows="7" cols="30" rows="10" required></textarea> <br>
+            <div class="col-1">
+             <input class="transmit" type="submit" value="Забронировать" onclick="send()"/>
+            </div>
+         </form>
+         </div>
+        </div>
+        <div class="home">
+            
+            <a href="/index.html">На главную</a>    
+            
+        </div>
+    </main>
+    <footer></footer>
+        <script src="../javascript/send.js"></script>
+  
+</body>
+
+  
+                   
+</html>
